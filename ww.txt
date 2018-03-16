@@ -1,0 +1,8 @@
+var a= document.getElementbyId('mydiv');
+console.log(a);
+a.addEventListener('mousedown',mousepress);
+function mousepress(e)
+{
+console.log("you pressed the mouse");
+console.log(e);
+}
